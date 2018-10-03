@@ -1,6 +1,6 @@
-k=input("Enter the row:")
+K=input("Enter the row:")
 L=input("Enter the row:")
-for i in range(a,b):
+for i in range(K,L):
 	n=0
 	temp=i
 	while temp>0:
