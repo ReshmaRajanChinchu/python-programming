@@ -1,2 +1,2 @@
-a=int(input("enter the no"))
-print(len(str(a)))
+a1=int(input("enter the no"))
+print(len(str(a1)))
