@@ -1,18 +1,18 @@
-n1 = 0
-n2 = 1
+n11 = 0
+n12 = 1
 count = 0
 nterms=int(input("n"))
 if nterms <= 0:
-   print("Please enter a positive integer")
+   print("positive integer")
 elif nterms == 1:
    print("Fibonacci sequence upto",nterms,":")
-   print(n1)
+   print(n11)
 else:
    print("Fibonacci sequence upto",nterms,":")
    while count < nterms:
-       print(n1,end='  ')
-       nth = n1 + n2
-       n1 = n2
-       n2 = nth
+       print(n11,end='  ')
+       nth = n11 + n12
+       n11 = n12
+       n12 = nth
        count += 1
 
