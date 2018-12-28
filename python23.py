@@ -5,3 +5,4 @@ if(n<100000):
         b=int(input("b"))
         a.append(b)
     print(min(a))
+
